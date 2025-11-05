@@ -189,6 +189,7 @@ nav {
 }
 
 .header__image img {
+  border-radius: 2rem;
   max-width: 400px;
   margin: auto;
 }
@@ -221,7 +222,7 @@ nav {
 }
 
 .about__image img {
-  max-width: 450px;
+  border-radius: 2rem;
   margin: auto;
 }
 
@@ -343,7 +344,14 @@ nav {
 }
 
 .project__card img {
+  max-width: 400px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.project__card video {
+  border-radius: 5px;
+  width: 550px;
   cursor: pointer;
 }
 
