@@ -351,8 +351,8 @@ nav {
 
 .project__card video {
   border-radius: 5px;
-  width: 550px;
   cursor: pointer;
+  max-width: 400px;
 }
 
 .service__grid {
